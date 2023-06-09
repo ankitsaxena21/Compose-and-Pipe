@@ -17,7 +17,7 @@ function divide2(x) {
     return divide(2, x)
 }
 
-const newRes = _.flowRight(multiply10, subtract1, add2, divide2)(5);
+const newRes = _.flow(multiply10, subtract1, add2, divide2)(5);
 
 console.log(res);
 
